@@ -1,0 +1,68 @@
+/*
+Author: Nyosha Homicil
+Date: 3/4/23
+File: styles.css
+*/
+
+/*CSS Reset*/
+body, header, nav, main, footer, h1{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #FFA372; 
+}
+
+img {
+    max-width: 100%;
+    display: block; 
+}
+
+/* Style Rules for Header */
+header {  
+    background-color: #ED6663;
+    height: 25px;
+    text-align: left;
+    padding: 3em;
+}
+
+header a{
+    color: #FFA372;
+    font-size: 5em;
+    @font-face {
+        font-family: ;
+        src: url();
+    }
+}
+
+/* Style Rules for Nav Area */
+nav {
+    padding: 5%;
+    margin-bottom: 5%;
+}
+
+nav ul {
+    float: right;
+    margin: 0 auto;
+}
+
+nav li {
+    list-style-type: none;
+    font-size: 2em;
+    font-family: 'Staatliches', cursive;
+    float: left;
+}
+
+nav li a{
+    display: block;
+    color: #ED6663;
+    padding: .5em 2em;
+    text-decoration: none;  
+}
+
+.logo-header{
+    font-size: 3em;
+    
+}

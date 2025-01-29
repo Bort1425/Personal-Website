@@ -20,42 +20,45 @@ img {
     display: block; 
 }
 
+@font-face {
+    font-family: planetLight;
+    src: url('optiplanet-light.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Style Rules for Header */
 header {  
     background-color: #ED6663;
     height: 25px;
     text-align: left;
-    padding: 2em;
+    padding: 1em 0px 60px 0px;
 }
 
 header h1{
+    font-family: planetLight;
     color: #FFA372;
     font-size: 4em;
-    @font-face {
-        font-family: ;
-        src: url();
-    }
     text-align: center;
-    padding: 0em 1em 1em 1em;
+    padding: 0em 1em 1px 1em;
 
 }
 
 /* Style Rules for Nav Area */
 nav {
-    padding: 3em;
-    margin: auto;
-    background-color: rgb(160, 58, 211);
+    padding: 1px 1em 1px 1em;
+    margin: 1px 0em 2em 0px;
 }
 
 nav ul {
     float: right;
-    margin: 1em 1em 1em 1em;
+    margin: 1px 3em 1px 1px;
 }
 
 nav li {
+    font-family: planetLight ;
     list-style-type: none;
     font-size: 2em;
-    font-family: 'Staatliches', cursive;
     float: left;
 }
 

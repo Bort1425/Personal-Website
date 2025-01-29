@@ -25,27 +25,31 @@ header {
     background-color: #ED6663;
     height: 25px;
     text-align: left;
-    padding: 3em;
+    padding: 2em;
 }
 
-header a{
+header h1{
     color: #FFA372;
-    font-size: 5em;
+    font-size: 4em;
     @font-face {
         font-family: ;
         src: url();
     }
+    text-align: center;
+    padding: 0em 1em 1em 1em;
+
 }
 
 /* Style Rules for Nav Area */
 nav {
-    padding: 5%;
-    margin-bottom: 5%;
+    padding: 3em;
+    margin: auto;
+    background-color: rgb(160, 58, 211);
 }
 
 nav ul {
     float: right;
-    margin: 0 auto;
+    margin: 1em 1em 1em 1em;
 }
 
 nav li {

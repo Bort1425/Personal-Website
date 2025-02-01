@@ -46,7 +46,7 @@ header h1{
 
 /* Style Rules for Nav Area */
 nav {
-    padding: 1px 1em 1px 1em;
+    padding: 1em 4em;
     margin: 1px 0em 2em 0px;
 }
 
@@ -60,6 +60,7 @@ nav li {
     list-style-type: none;
     font-size: 2em;
     float: left;
+    margin: 1px;
 }
 
 nav li a{
@@ -69,6 +70,14 @@ nav li a{
     text-decoration: none;  
 }
 
+.acting-section{
+    margin: 3em 0px 6em 3em;
+}
+
+h1 {
+    text-align: center;
+    padding: 1em 1px 1em 1px;
+}
 .logo-header{
     font-size: 3em;
     

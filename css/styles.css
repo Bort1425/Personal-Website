@@ -12,7 +12,7 @@ body, header, nav, main, footer, h1{
 }
 
 body {
-    background-color: #FFA372; 
+    background-color: #F27405; 
 }
 
 img {
@@ -21,27 +21,29 @@ img {
 }
 
 @font-face {
-    font-family: planetLight;
-    src: url('optiplanet-light.otf');
-    font-weight: normal;
+    font-family: 'planetLight';
+    src: local('optiplanet-light.otf');
+    font-weight: bold;
     font-style: normal;
 }
 
+
+
 /* Style Rules for Header */
 header {  
-    background-color: #ED6663;
+    background-color: #038C3E;
     height: 25px;
     text-align: left;
     padding: 1em 0px 60px 0px;
+
 }
 
 header h1{
-    font-family: planetLight;
-    color: #FFA372;
+    font-family: 'planetLight';
+    color: #F27405;
     font-size: 4em;
     text-align: center;
     padding: 0em 1em 1px 1em;
-
 }
 
 /* Style Rules for Nav Area */
@@ -56,7 +58,7 @@ nav ul {
 }
 
 nav li {
-    font-family: planetLight ;
+    font-family: 'planetLight';
     list-style-type: none;
     font-size: 2em;
     float: left;
@@ -65,20 +67,62 @@ nav li {
 
 nav li a{
     display: block;
-    color: #ED6663;
+    color: #038C3E;
     padding: .5em 2em;
     text-decoration: none;  
 }
 
 .acting-section{
-    margin: 3em 0px 6em 3em;
+    margin: 3em 0 6em 0;
+    font-weight: bold;
+    font-size:large;
+    background-color: black;
+}
+.acting-section a, .photography-section a, .programmer-section a{
+    color: #038C3E;
+    font-family: 'planetLight';
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.programmer-section {
+    padding: 2em;
 }
 
 h1 {
     text-align: center;
     padding: 1em 1px 1em 1px;
+    
 }
 .logo-header{
-    font-size: 3em;
-    
+    font-size: 4em;
+    font-weight: bold;
+}
+
+/*Footer Section*/
+footer {
+    background-color: #038C3E;
+    padding: 1em;
+}
+
+footer .copyright {
+    font-size:1em;
+    text-align: center;
+    color: black;
+    padding: 1em;
+    font-family: 'planetLight';
+}
+
+footer ul a{
+    font-size:1.5em;
+    text-align: center;
+    color: black;
+    font-family: 'planetLight';
+    text-decoration: none;
+}
+
+footer ul{
+    text-align: center;
+    list-style-type: none;
+    display: block;
 }

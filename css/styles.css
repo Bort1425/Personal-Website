@@ -72,17 +72,45 @@ nav li a{
     text-decoration: none;  
 }
 
+
+.acting-section a, .photography-section a, .programmer-section a{
+    color: #038C3E;
+    font-family: 'planetLight';
+    font-size: 2em;
+    text-decoration: none;
+}
+
 .acting-section{
     margin: 3em 0 6em 0;
     font-weight: bold;
     font-size:large;
     background-color: black;
 }
-.acting-section a, .photography-section a, .programmer-section a{
-    color: #038C3E;
-    font-family: 'planetLight';
-    font-size: 2em;
-    text-decoration: none;
+
+.acting-gallery-index{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 1400px;
+    margin: 1em auto;
+    padding: 20px 5px;
+}
+
+.acting-gallery-index img {
+    width: 100%;
+    max-width: 450px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.acting-gallery-index figcaption{
+    color: white;
+    float: center;
+    font-size: 1em;
+    caption-side: bottom;
 }
 
 .programmer-section {
